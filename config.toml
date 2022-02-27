@@ -1,6 +1,6 @@
-baseURL                          = "https://cleantest.chrysocode.io/"   # Your domain name. Must end with "/"
+baseURL                          = "http://example.com/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
-DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
+DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
@@ -10,8 +10,8 @@ DefaultContentLanguage           = "fr"                    # Default language fo
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
-    dateFormat                   = "2 Janvier 2006"
-    email                        = "cleantest@chrysocode.io"   # E-mail address for contact section
+    dateFormat                   = "Jan 2, 2006"
+    email                        = "youremail@email.com"   # E-mail address for contact section
     # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
@@ -24,8 +24,8 @@ DefaultContentLanguage           = "fr"                    # Default language fo
         allPostsArchiveFormat    = true                    # show all posts in an archive format
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "Europe/Paris"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "fr"                 # Language specific format to use
+        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeFormat               = "en-US"                 # Language specific format to use
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
 
@@ -110,13 +110,33 @@ DefaultContentLanguage           = "fr"                    # Default language fo
     tabWidth = 4
 
 [languages]
-    [languages.fr]
-        languageName     = "Français"
-        languageCode     = "fr"
-        contentDir       = "content/fr"
-        weight           = 1
-        title            = "Clean Test"
-        [languages.es.params]
-            description  = "Bonnes pratiques d'automatisation de test"   # Max 160 characters show in search results
+    [languages.en]
+        languageName     = "English"
+        languageCode     = "en-us"
+        contentDir       = "content/en"
+        weight           = 0
+        title            = "Introduction"
+        [languages.en.params]
+            description  = "Website Description"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
+    [languages.es]
+        languageName     = "Español"
+        languageCode     = "es"
+        contentDir       = "content/es"
+        weight           = 1
+        title            = "Introducción"
+        [languages.es.params]
+            description  = "Descripcion del sitio web"
+            # footerText   = ""
+
+    [languages.de]
+        languageName     = "Deutsch"
+        languageCode     = "de"
+        contentDir       = "content/de"
+        weight           = 2
+        title            = "Vorstellung"
+        [languages.de.params]
+            dateFormat   = "2. January 2006"
+            description  = "Beschreibung der Webseite"
+            # footerText   = ""
