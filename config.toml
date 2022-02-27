@@ -110,6 +110,16 @@ DefaultContentLanguage           = "en"                    # Default language fo
     tabWidth = 4
 
 [languages]
+    [languages.fr]
+        languageName     = "Français"
+        languageCode     = "fr"
+        contentDir       = "content/fr"
+        weight           = 0
+        title            = "Introduction"
+        [languages.fr.params]
+            description  = "Description du site web"   # Max 160 characters show in search results
+            # footerText   = ""                      # Text to override default footer text (markdown allowed)
+
     [languages.en]
         languageName     = "English"
         languageCode     = "en-us"
