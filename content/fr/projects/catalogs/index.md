@@ -1,5 +1,5 @@
 ---
-title: "Design"
+title: "Catalogues"
 weight: 2
 resources:
     - src: plant.jpg
