@@ -1,17 +1,12 @@
 ---
-title: "About"
-image: "profile.jpg"
+title: "Clean Test ?"
+image: "logo_clean_test.png"
 weight: 8
 ---
 
-This is **Introduction**, a minimalist website theme made for [Hugo](https://gohugo.io).
+*Clean Test*&reg; est une mouvance de l'ingénierie du test qui vise à promouvoir de meilleures pratiques en automatisation de test.
+* **Développez vos compétences** : vous pouvez vous procurer ici les livres de la ligne éditoriale *Clean Test*&reg;, afin de développer de nouvelles compétences.
+* **Accompagnement méthodologique et outillé** : les prestations de coaching pour les organisations et équipes qui mènent des projets d'automatisation de test sont assurées par [CHRYSOCODE](https://chrysocode.io/), afin de sécuriser vos objectifs.
+* **Application pratique sur le terrain** : les bonnes pratiques d'automatisation de test sont formalisées et organisées dans des catalogues, qui peuvent être importés directement dans la plateforme [Promyze](https://promyze.com/fr/) sous forme de fichiers JSON. Le but de ces catalogues est d'appliquer de bonnes pratiques en situation opérationnelle, dans vos outils habituels (IDE, navigateurs web) pour le succès des projets.
 
-### Features
-
-* Responsive display on any size screen
-* Light and Dark themes right out of the box
-* Multilingual - supports side-by-side content in multiple languages
-* Any number of custom index page sections from Markdown files
-* _Projects_ section with any number of projects: highly configurable as a photo gallery, modals, or external links
-* _Blog_ section with optional _Latest Post_, on the main page or as a separate section
-* Styled Markdown throughout with support for Hugo's syntax highlighting
+*Clean Test*&reg; est une marque enregistrée de [Chrysocode IT](https://chrysocode.io/).

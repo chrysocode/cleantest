@@ -1,6 +1,7 @@
 ---
-title: "Hi, I'm Introduction"
+title: "Clean Test"
 headless: true
 ---
 
-I'm a theme for Hugo.
+Les tests ont enfin droit à leur code propre.  
+"Very Important Tests: tests as VIP"
