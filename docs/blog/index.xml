@@ -5,6 +5,16 @@
     <link>https://cleantest.chrysocode.io/blog/</link>
     <description>Recent content in Blog on Clean Test</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="https://cleantest.chrysocode.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    <lastBuildDate>Mon, 28 Feb 2022 20:10:35 +0100</lastBuildDate><atom:link href="https://cleantest.chrysocode.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pourquoi créer Clean Test ?</title>
+      <link>https://cleantest.chrysocode.io/blog/pourquoi_creer_clean_test/</link>
+      <pubDate>Mon, 28 Feb 2022 20:10:35 +0100</pubDate>
+      
+      <guid>https://cleantest.chrysocode.io/blog/pourquoi_creer_clean_test/</guid>
+      <description>Jouer avec les tests en tant qu&amp;rsquo;Artisan du code J&amp;rsquo;ai toujours été passionné par les pratiques d&amp;rsquo;ingénierie, qu&amp;rsquo;il s&amp;rsquo;agisse de comprendre et s&amp;rsquo;approprier l&amp;rsquo;état de l&amp;rsquo;art, ou d&amp;rsquo;en faire émerger de nouvelles. Comme je suis arrivé dans l&amp;rsquo;ingénierie du test par le Software Craftsmanship (TDD, BDD, ATDD), automatiser mes tests a toujours été une évidence, ainsi que de les automatiser de concert avec la conception du code. J&amp;rsquo;ai même trouvé ludique de jouer avec un framework de test comme JUnit et ses fonctionnalités, tant il permet de varier les approches et les plaisirs.</description>
+    </item>
+    
   </channel>
 </rss>
