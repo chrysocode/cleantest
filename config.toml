@@ -101,8 +101,8 @@ DefaultContentLanguage           = "fr"                    # Default language fo
         languageCode     = "fr"
         contentDir       = "content/fr"
         weight           = 0
-        title            = "Introduction"
+        title            = "Clean Test"
         [languages.fr.params]
-            description  = "Description du site web"   # Max 160 characters show in search results
+            description  = "Clean Test par Chrysocode est dédié à l'ingénierie du test et aux bonnes pratiques d'automatisation. Vous êtes sur le site officiel de l'initiative Clean Test."   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
