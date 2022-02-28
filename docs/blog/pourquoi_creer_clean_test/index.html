@@ -209,13 +209,13 @@ Pourquoi Créer Clean Test ? - Clean Test
 <div class="container markdown top-pad">
     
 <h1 id="jouer-avec-les-tests-en-tant-quartisan-du-code" class="anchor-link"><a href="#jouer-avec-les-tests-en-tant-quartisan-du-code">Jouer avec les tests en tant qu&rsquo;Artisan du code</a></h1>
-<p>J&rsquo;ai toujours été passionné par les pratiques d&rsquo;ingénierie, qu&rsquo;il s&rsquo;agisse de comprendre et s&rsquo;approprier l&rsquo;état de l&rsquo;art, ou d&rsquo;en faire émerger de nouvelles. Comme je suis arrivé dans l&rsquo;ingénierie du test par le <em>Software Craftsmanship</em> (TDD, BDD, ATDD), automatiser mes tests a toujours été une évidence, ainsi que de les automatiser de concert avec la conception du code. J&rsquo;ai même trouvé ludique de jouer avec un framework de test comme JUnit et ses fonctionnalités, tant il permet de varier les approches et les plaisirs. Oui, les plaisirs, car en prenant le temps de bien faire les choses, on en arrive à distinguer ce que le framework permet de faire et les manières de tirer profit de ses capacités.</p>
+<p>J&rsquo;ai toujours été passionné par les pratiques d&rsquo;ingénierie, qu&rsquo;il s&rsquo;agisse de comprendre et s&rsquo;approprier l&rsquo;état de l&rsquo;art, ou d&rsquo;en faire émerger de nouvelles. Comme je suis arrivé dans l&rsquo;ingénierie du test par le <em><a href="https://manifesto.softwarecraftsmanship.org/">Software Craftsmanship</a></em> (<a href="https://fr.wikipedia.org/wiki/Test_driven_development">TDD</a>, BDD, ATDD), automatiser mes tests a toujours été une évidence, ainsi que de les automatiser de concert avec la conception du code. J&rsquo;ai même trouvé ludique de jouer avec un framework de test comme <a href="https://junit.org/">JUnit</a> et ses fonctionnalités, tant il permet de varier les approches et les plaisirs. Oui, les plaisirs, car en prenant le temps de bien faire les choses, on en arrive à distinguer ce que le framework permet de faire et les manières de tirer profit de ses capacités.</p>
 
 <h1 id="ba-ba-du-test" class="anchor-link"><a href="#ba-ba-du-test">B.A-BA du test</a></h1>
-<p>C&rsquo;est alors que surgissent les bonnes pratiques, pour ne pas se contenter des bases que l&rsquo;on apprend simplement pour faire fonctionner et exécuter des tests. Dans la conception logicielle, les développeurs forgent leur expérience par la pratique, et l&rsquo;opportunité de l&rsquo;élargir rapidement grâce à <em>Clean Code</em>, le livre de Robert C. Martin, surnommé Oncle Bob, et quantité d&rsquo;autres ouvrages, tous dans le giron du <em>Craftsmanship</em>. D&rsquo;ailleurs dans <em>Clean Code</em>, même si le livre se focalise principalement sur la conception logicielle, un chapitre est quand même dédié aux tests unitaires, un autre à JUnit : dans celui des tests unitaires, Oncle Bob nous parle des trois lois de TDD - eh oui, encore, <em>Craftsmanship</em> oblige -, de l&rsquo;importance d&rsquo;avoir des tests lisibles, de spécialiser chaque cas de test par rapport à un objectif réduit, et pour finir, des principes FIRST. Et c&rsquo;est fini !</p>
+<p>C&rsquo;est alors que surgissent les bonnes pratiques, pour ne pas se contenter des bases que l&rsquo;on apprend simplement pour faire fonctionner et exécuter des tests. En conception logicielle, les développeurs forgent leur expérience par la pratique, et ils ont l&rsquo;opportunité de l&rsquo;élargir rapidement grâce à <em>Clean Code</em>, le <a href="https://www.oreilly.com/library/view/clean-code-a/9780136083238/">livre</a> de <a href="https://fr.wikipedia.org/wiki/Robert_C._Martin">Robert C. Martin</a>, surnommé <a href="http://cleancoder.com/">Oncle Bob</a>, et quantité d&rsquo;autres ouvrages, tous dans le giron du <em>Craftsmanship</em>. D&rsquo;ailleurs dans <em>Clean Code</em>, même si le livre se focalise principalement sur la conception logicielle, un chapitre est quand même dédié aux tests unitaires, un autre à JUnit : dans celui des tests unitaires, Oncle Bob nous parle des trois lois de TDD - eh oui, encore, <em>Craftsmanship</em> oblige -, de l&rsquo;importance d&rsquo;avoir des tests lisibles, de spécialiser chaque cas de test par rapport à un objectif réduit, et pour finir, des principes FIRST<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Et c&rsquo;est fini !</p>
 
 <h1 id="distiller-et-formaliser-des-pratiques-de-test" class="anchor-link"><a href="#distiller-et-formaliser-des-pratiques-de-test">Distiller et formaliser des pratiques de test</a></h1>
-<p>Mais que peut-on attendre de plus ? En poussant loin mes expérimentations, j&rsquo;ai pu découvrir des pratiques innovantes pour obtenir des tests toujours plus lisibles et maintenables, puis les formaliser dans un catalogue où elles étaient documentées par des exemples et des contre-exemples. Je l&rsquo;ai enrichi par des écueils (mauvaises pratiques) issus du code de test que je cotoyais dans les projets. Ce catalogue comportait trois thèmes dédiés aux tests : la maintenabilité, la pertinence et la robustesse, avec le bon usage des doublures de test. C&rsquo;était en 2016. Même si je poussais déjà plus loin la démarche en matière de pratiques de test, ce catalogue se focalisait alors seulement sur JUnit, et par extension à des tests praticables avec l&rsquo;outil, tels que les tests unitaires et les tests d&rsquo;intégration. JUnit permet aussi d&rsquo;automatiser des tests fonctionnels d&rsquo;interface utilisateur et des tests de performance, et même des tests d&rsquo;architecture, mais il aurait fallu initier de nouveaux catalogues de pratiques car automatiser ces tests-là requiert d&rsquo;adjoindre des outils supplémentaires.</p>
+<p>Mais que peut-on attendre de plus ? En poussant loin mes expérimentations, j&rsquo;ai pu découvrir des pratiques innovantes pour obtenir des tests toujours plus lisibles et maintenables, puis les formaliser dans un catalogue où elles étaient documentées par des exemples et des contre-exemples. Je l&rsquo;ai enrichi par des écueils (mauvaises pratiques) issus du code de test que je côtoyais dans les projets. Ce catalogue comportait trois thèmes dédiés aux tests : la maintenabilité, la pertinence et la robustesse, avec le bon usage des doublures de test. C&rsquo;était en 2016. Même si je poussais déjà plus loin la démarche en matière de pratiques de test, ce catalogue se focalisait alors seulement sur JUnit, et par extension à des tests praticables avec l&rsquo;outil, tels que les tests unitaires et les tests d&rsquo;intégration. JUnit permet aussi d&rsquo;automatiser des tests fonctionnels d&rsquo;interface utilisateur et des tests de performance, et même des tests d&rsquo;architecture, mais il aurait fallu initier de nouveaux catalogues de pratiques car automatiser ces tests-là requiert d&rsquo;adjoindre des outils supplémentaires.</p>
 
 <h1 id="souvrir-à-des-cadres-dautomatisation-multiples" class="anchor-link"><a href="#souvrir-%c3%a0-des-cadres-dautomatisation-multiples">S&rsquo;ouvrir à des cadres d&rsquo;automatisation multiples</a></h1>
 <p>C&rsquo;est en fait en visitant les autres étages de la pyramide des tests que j&rsquo;ai pu juger de l&rsquo;envergure du travail à accomplir. En s&rsquo;attaquant aux tests systémiques, et comme on bascule dans le domaine du test pur, en se détachant du <em>Craftsmanship</em> donc, on s&rsquo;autorise à jouer avec pléthore de cadres méthodologiques d&rsquo;automatisation de test. On les nomme des <em>frameworks</em> certes, mais ils sont conceptuels, et non pas des outils :</p>
@@ -230,18 +230,16 @@ Pourquoi Créer Clean Test ? - Clean Test
 <li><em>model-based testing automation framework</em> ;</li>
 <li>et enfin, <em>hybrid testing automation framework</em>.</li>
 </ul>
-<blockquote>
 <p>Je donne ici leur nom en anglais, car c&rsquo;est sous ces termes qu&rsquo;on en parle dans la littérature, dans des articles de blog le plus souvent.</p>
-</blockquote>
 <p>Or en me confrontant à tous ces cadres méthodologiques, il m&rsquo;est devenu évident que les bonnes pratiques étaient désormais susceptibles de se démultiplier.</p>
 <ol>
 <li>À chaque cadre méthodologique (FAT) correspondent des pratiques qui lui sont propres.</li>
-<li>En tant qu&rsquo;implémentation de ces derniers, les frameworks de développement de test automatisé (FDTA), c&rsquo;est-à-dire les outils, se conforment à un ou plusieurs FAT, dont ils héritent des pratiques.</li>
+<li>En tant qu&rsquo;implémentations de ces derniers, les frameworks de développement de test automatisé (FDTA), c&rsquo;est-à-dire les outils, se conforment à un ou plusieurs FAT, dont ils héritent des pratiques.</li>
 <li>En fonction des partis pris dans leur conception, les FDTA disposent de pratiques qui leur sont propres.</li>
 <li>Selon le sujet de test et l&rsquo;objectif du test, autrement dit selon la forme de test considérée, les pratiques diffèrent encore.</li>
 </ol>
 <blockquote>
-<p>Comme les FAT fournissent un cadre générique, je nomme pratiques de premier niveau les bonnes pratiques spécifiques des FAT. Étant donné que les FDTA sont des implémentations de FAT, je nomme pratiques de second niveau les bonnes pratiques spécifiques des FDTA.</p>
+<p>Comme les FAT<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> fournissent un cadre générique, je nomme pratiques de premier niveau les bonnes pratiques spécifiques des FAT. Étant donné que les FDTA<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> sont des implémentations de FAT, je nomme pratiques de second niveau les bonnes pratiques spécifiques des FDTA.</p>
 </blockquote>
 <p>Autant dire que le champ d&rsquo;exploration et d&rsquo;innovation est immense ! Et la littérature est finalement pauvre sur le sujet.</p>
 
@@ -250,8 +248,23 @@ Pourquoi Créer Clean Test ? - Clean Test
 <blockquote>
 <p><em>Clean Test</em> sera donc à l&rsquo;automatisation des tests ce que <em>Clean Code</em> est à la conception logicielle.</p>
 </blockquote>
-<p>À l&rsquo;avenir, je publierai donc mes ouvrages spécialisés dans l&rsquo;automatisation de test sous la ligne éditoriale <em>Clean Test</em>. Les catalogues de bonnes pratiques de test seront estampillés <em>Clean Test</em>, pour être importés dans la plateforme <a href="https://promyze.com/">Promyze</a>. Enfin, je mettrai mon savoir-faire à disposition des développeurs de produit et développeurs de solution de test (SDET) sous la forme d&rsquo;une offre d&rsquo;accompagnement et de coaching appelée <em>Coaching Clean Test</em>.</p>
+<p>À l&rsquo;avenir, je publierai donc mes ouvrages spécialisés dans l&rsquo;automatisation de test sous la ligne éditoriale <em>Clean Test</em>. Les catalogues de bonnes pratiques de test seront estampillés <em>Clean Test</em>, pour être importés dans la plateforme <a href="https://promyze.com/">Promyze</a>. Enfin, je mettrai mon savoir-faire à disposition des développeurs de produit et développeurs de solution de test (SDET) sous la forme d&rsquo;une <a href="https://chrysocode.io/conseil.html">offre d&rsquo;accompagnement et de coaching</a> appelée <em>Coaching Clean Test</em>.</p>
 <p><em>Clean Test</em>® est une initiative de <a href="https://chrysocode.io">CHRYSOCODE</a> et une marque enregistrée par <a href="https://chrysocode.io/">Chrysocode IT</a>.</p>
+<p><img src="/img/logo_clean_test.png" alt="Logo de Clean Test"></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>FIRST est un acronyme qui reprend les critères d&rsquo;un bon test, à savoir : Fulgurant (<em>fast</em>), Indépendant (<em>independent</em>), Reproductible (<em>repeatable</em>), Suffisant (<em>self-validating</em>), à Temps, ou Tôt (<em>timely</em>).&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>FAT signifie Framework d&rsquo;Automatisation de Test et désigne un cadre méthodologique.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>FDTA signifie Framework de Développement de Test Automatisé et désigne un outil résultant de l&rsquo;implémentation d&rsquo;un ou plusieurs FAT.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
 </div>
 
